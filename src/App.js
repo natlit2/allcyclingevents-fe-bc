@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MyCalendar from "./Components/Calendar";
-import EventFetcher from "./Components/eventFetcher";
+import EventFetcher from "./Components/EventFetcher";
+import Event from "./Components/Event";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <MyCalendar />
         <EventFetcher />
+        <Event />
       </div>
       <footer></footer>
     </div>
