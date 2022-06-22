@@ -1,19 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MyCalendar from "./Components/Calendar";
-import EventFetcher from "./Components/EventFetcher";
 import Event from "./Components/Event";
 
 function App() {
   return (
     <div className="App">
-      <div>nav bar</div>
+      <div>here will be a nav bar</div>
       <div>
         <MyCalendar />
-        <EventFetcher />
         <Event />
       </div>
-      <footer></footer>
+      <footer>here will be the Footer</footer>
     </div>
   );
 }
