@@ -7,11 +7,12 @@ function App() {
   return (
     <div className="App">
       <div>here will be a nav bar</div>
-      <div>
+      <h1 id="mainTitle">All Cycling Events - Berlin</h1>
+      <div id="calendarContainer">
         <MyCalendar />
         <Event />
       </div>
-      <footer>here will be the Footer</footer>
+      <footer id="footer">here will be the Footer</footer>
     </div>
   );
 }
