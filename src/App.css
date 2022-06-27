@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+#calendarContainer {
+  padding: 5rem;
+}
