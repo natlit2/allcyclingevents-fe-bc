@@ -23,7 +23,7 @@ const MyCalendar = () => {
       };
       ref.current.style.color = "white";
       ref.current.style.background = "rgba(0,0,0,.6)";
-    }, []);
+    });
 
     return (
       <span ref={ref}>
