@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 import MyCalendar from "./Components/Calendar";
 import Event from "./Components/Event";
