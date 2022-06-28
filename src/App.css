@@ -94,4 +94,7 @@
   .rbc-toolbar-label {
     margin: 0.5rem;
   }
+  #footer {
+    display: none;
+  }
 }
