@@ -39,4 +39,41 @@
 
 #calendarContainer {
   padding: 5rem;
+  padding-top: 0rem;
+}
+
+#mainTitle {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  background-color: rgb(98, 219, 252);
+  overflow: hidden;
+  filter: opacity(0.7);
+  /* justify-content: space-between; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(146, 214, 121);
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(255, 166, 0);
+  color: black;
 }

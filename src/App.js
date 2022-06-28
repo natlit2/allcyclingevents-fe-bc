@@ -6,7 +6,14 @@ import Event from "./Components/Event";
 function App() {
   return (
     <div className="App">
-      <div>here will be a nav bar</div>
+      <div class="topnav">
+        <a class="active" href="#home">
+          Home
+        </a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
       <h1 id="mainTitle">All Cycling Events - Berlin</h1>
       <div id="calendarContainer">
         <MyCalendar />
