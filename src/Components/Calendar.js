@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import useEvents from "../hooks/useEvents";
@@ -18,10 +18,11 @@ const MyCalendar = () => {
       ref.current.parentNode.style.backgroundPosition = "center";
       ref.current.parentNode.style.backgroundRepeat = "no-repeat";
       ref.current.parentNode.style.backgroundSize = "cover";
-      ref.current.parentNode.style.height = "65px"; //this controles the height of the event container
+      ref.current.parentNode.style.height = "80px"; //this controles the height of the event container
       ref.current.parentNode.onclick = () => {
         window.open(event.link, "_blank");
       };
+      //this is the display of the title
       ref.current.style.color = "white";
       ref.current.style.background = "rgba(0,0,0,.6)";
       ref.current.style.display = "none";
@@ -34,9 +35,14 @@ const MyCalendar = () => {
     );
   };
 
-  const components = {
-    event: CustomEvent,
-  };
+  const { components } = useMemo(
+    () => ({
+      components: {
+        event: CustomEvent,
+      },
+    }),
+    []
+  );
 
   return (
     <div>
@@ -46,7 +52,7 @@ const MyCalendar = () => {
         events={events}
         startAccessor="start"
         endAccessor="end"
-        style={{ height: 500 }}
+        style={{ height: 600 }}
       />
     </div>
   );
