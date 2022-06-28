@@ -18,11 +18,13 @@ const MyCalendar = () => {
       ref.current.parentNode.style.backgroundPosition = "center";
       ref.current.parentNode.style.backgroundRepeat = "no-repeat";
       ref.current.parentNode.style.backgroundSize = "cover";
+      ref.current.parentNode.style.height = "65px"; //this controles the height of the event container
       ref.current.parentNode.onclick = () => {
         window.open(event.link, "_blank");
       };
       ref.current.style.color = "white";
       ref.current.style.background = "rgba(0,0,0,.6)";
+      ref.current.style.display = "none";
     });
 
     return (
