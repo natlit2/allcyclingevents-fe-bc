@@ -83,4 +83,15 @@
     padding: 1rem;
     padding-top: 0rem;
   }
+  #mainTitle {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .rbc-toolbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .rbc-toolbar-label {
+    margin: 0.5rem;
+  }
 }
