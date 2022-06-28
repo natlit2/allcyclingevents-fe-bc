@@ -10,7 +10,15 @@ const useEvents = () => {
   useEffect(() => {
     fetch(URL)
       .then((res) => res.json())
-      .then((results) => setEvents(results.Events))
+      .then((results) =>
+        setEvents(
+          results.Events.map((event) => ({
+            ...event,
+            start: new Date(event.start),
+            end: new Date(event.end),
+          }))
+        )
+      )
       .catch((err) => console.log(err));
   }, []);
 

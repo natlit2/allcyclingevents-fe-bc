@@ -6,8 +6,8 @@ import Event from "./Components/Event";
 function App() {
   return (
     <div className="App">
-      <div class="topnav">
-        <a class="active" href="#home">
+      <div className="topnav">
+        <a className="active" href="#home">
           Home
         </a>
         <a href="#news">News</a>
