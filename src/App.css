@@ -43,8 +43,13 @@
 }
 
 #mainTitle {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 350%;
+}
+
+.rbc-toolbar-label {
+  font-size: 150%;
 }
 
 /* Add a black background color to the top navigation */
