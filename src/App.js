@@ -18,13 +18,13 @@ function App() {
           position="bottom left"
         >
           <div className="popup-content-container">
-            <p>new features to come:</p>
-            <p>more events</p>
+            <p>New features to come:</p>
+            <p>More events</p>
             <p>Share the website with friends</p>
-            <p>save an event to your calendar</p>
+            <p>Save an event to your calendar</p>
             <p>Accessibility features</p>
             <p>Theme support</p>
-            <p>and much more...</p>
+            <p>And much more...</p>
             <p>So stay tuned!</p>
           </div>
         </Popup>
