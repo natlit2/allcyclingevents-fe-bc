@@ -76,7 +76,7 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav .navBtn:hover {
   background-color: rgb(146, 214, 121);
   color: white;
 }
@@ -110,4 +110,39 @@
   .topnav {
     justify-content: space-between;
   }
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 50%;
+  padding: 30px;
+  font-family: "Play", sans-serif;
+}
+.popup-arrow {
+  color: rgb(254, 245, 184);
+}
+[role="tooltip"].popup-content {
+  min-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  background-color: rgb(254, 245, 184);
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent;
+}
+
+.navBtn {
+  background-color: transparent;
+  border: none;
+  font-family: "Stick No Bills";
+  font-size: 17px;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+  align-items: center;
 }
