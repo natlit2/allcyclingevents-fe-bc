@@ -118,6 +118,7 @@
   width: 50%;
   padding: 30px;
   font-family: "Play", sans-serif;
+  border-radius: 0% !important;
 }
 .popup-arrow {
   color: rgb(254, 245, 184);
