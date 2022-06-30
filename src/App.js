@@ -31,13 +31,8 @@ function App() {
           position="bottom center"
         >
           <div>
-            Cupcake ipsum dolor sit amet cotton candy apple pie caramels muffin.
-            Powder topping bear claw bear claw danish ice cream croissant gummi
-            bears macaroon. Bear claw bear claw topping pastry liquorice jelly.
-            Muffin jelly beans icing cupcake jelly-o. Brownie candy canes sesame
-            snaps macaroon shortbread biscuit dessert caramels. Lollipop sugar
-            plum fruitcake muffin powder sweet roll. Caramels tootsie roll
-            cheesecake wafer tart ice cream apple pie.
+            <p>Email: hi this is second line</p>
+            <p>Linkedin: hi this is second line</p>
           </div>
         </Popup>
         <Popup
