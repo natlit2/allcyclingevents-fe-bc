@@ -13,40 +13,57 @@ function App() {
           Home
         </a>
         <Popup
+          class="popup"
           trigger={<button className="navBtn">News</button>}
           position="bottom left"
         >
-          <div>
-            Cupcake ipsum dolor sit amet cotton candy apple pie caramels muffin.
-            Powder topping bear claw bear claw danish ice cream croissant gummi
-            bears macaroon. Bear claw bear claw topping pastry liquorice jelly.
-            Muffin jelly beans icing cupcake jelly-o. Brownie candy canes sesame
-            snaps macaroon shortbread biscuit dessert caramels. Lollipop sugar
-            plum fruitcake muffin powder sweet roll. Caramels tootsie roll
-            cheesecake wafer tart ice cream apple pie.
+          <div className="popup-content-container">
+            <p>new features to come:</p>
+            <p>more events</p>
+            <p>Share the website with friends</p>
+            <p>save an event to your calendar</p>
+            <p>Accessibility features</p>
+            <p>Theme support</p>
+            <p>and much more...</p>
+            <p>So stay tuned!</p>
           </div>
         </Popup>
         <Popup
+          class="popup"
           trigger={<button className="navBtn">Contact</button>}
           position="bottom center"
         >
-          <div>
-            <p>Email: hi this is second line</p>
-            <p>Linkedin: hi this is second line</p>
+          <div className="popup-content-container">
+            <p>Find me on Linkedin</p>
+            <p>
+              <a href="https://www.linkedin.com/in/antonlitvak" target="_blank">
+                linkedin.com/in/antonlitvak
+              </a>
+            </p>
           </div>
         </Popup>
         <Popup
+          class="popup"
           trigger={<button className="navBtn">About</button>}
           position="bottom right"
         >
-          <div>
-            Cupcake ipsum dolor sit amet cotton candy apple pie caramels muffin.
-            Powder topping bear claw bear claw danish ice cream croissant gummi
-            bears macaroon. Bear claw bear claw topping pastry liquorice jelly.
-            Muffin jelly beans icing cupcake jelly-o. Brownie candy canes sesame
-            snaps macaroon shortbread biscuit dessert caramels. Lollipop sugar
-            plum fruitcake muffin powder sweet roll. Caramels tootsie roll
-            cheesecake wafer tart ice cream apple pie.
+          <div className="popup-content-container">
+            <p>Hi there!</p>
+            <p>I am Anton, thanks for visiting my website!</p>
+            <p>
+              In this web site you could find all the bicycle events happening
+              in Berlin
+            </p>
+            <p>Well...not ALL of them, but that's the goal</p>
+            <p>I built this website as my final project</p>
+            <p>completing a Full-stack web and app developer bootcamp</p>
+            <p>
+              I love bicycles and wanted to have a calendar of all the bicycle
+              events in Berlin
+            </p>
+            <p>and descided to share my findings with everyone</p>
+            <p>hope you enjoy it, and see ya' on the trails</p>
+            <p></p>
           </div>
         </Popup>
       </div>
