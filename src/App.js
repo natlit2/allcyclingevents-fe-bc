@@ -36,7 +36,11 @@ function App() {
           <div className="popup-content-container">
             <p>Find me on Linkedin</p>
             <p>
-              <a href="https://www.linkedin.com/in/antonlitvak" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/antonlitvak"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 linkedin.com/in/antonlitvak
               </a>
             </p>
@@ -57,6 +61,7 @@ function App() {
             <p>Well...not ALL of them, but that's the goal</p>
             <p>I built this website as my final project</p>
             <p>completing a Full-stack web and app developer bootcamp</p>
+            <p>at WBS Coding School - Berlin</p>
             <p>
               I love bicycles and wanted to have a calendar of all the bicycle
               events in Berlin
