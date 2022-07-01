@@ -70,13 +70,13 @@
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 25px;
   text-decoration: none;
   font-size: 17px;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav .navBtn:hover {
   background-color: rgb(146, 214, 121);
   color: white;
 }
@@ -110,4 +110,40 @@
   .topnav {
     justify-content: space-between;
   }
+}
+
+.popup-content {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+  font-family: "Play", sans-serif;
+  border-radius: 0% !important;
+}
+.popup-arrow {
+  color: rgb(255, 166, 0) !important;
+}
+[role="tooltip"].popup-content {
+  min-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  background-color: rgb(225, 249, 216);
+  text-align: center;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent;
+}
+
+.navBtn {
+  background-color: transparent;
+  border: none;
+  font-family: "Stick No Bills";
+  font-size: 17px;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+  align-items: center;
 }
