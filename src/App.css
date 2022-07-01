@@ -106,6 +106,7 @@
   }
   #footer {
     display: none;
+    z-index: 10;
   }
   .topnav {
     justify-content: space-between;
