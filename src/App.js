@@ -55,10 +55,8 @@ function App() {
             <p>Hi there!</p>
             <p>I am Anton, thanks for visiting my website!</p>
             <p>
-              In this web site you could find all the bicycle events happening
-              in Berlin
+              In this website you could find bicycle events happening in Berlin
             </p>
-            <p>Well...not ALL of them, but that's the goal</p>
             <p>I built this website as my final project</p>
             <p>completing a Full-stack web and app developer bootcamp</p>
             <p>at WBS Coding School - Berlin</p>
@@ -68,7 +66,12 @@ function App() {
             </p>
             <p>and descided to share my findings with everyone</p>
             <p>hope you enjoy it, and see ya' on the trails</p>
-            <p></p>
+            <p>p.s. If you have a website that you post bicycle events on</p>
+            <p>
+              and you want the events to appear here or you want to remove your
+              event from this calendar
+            </p>
+            <p>just drop me a message on Linkedin</p>
           </div>
         </Popup>
       </div>
