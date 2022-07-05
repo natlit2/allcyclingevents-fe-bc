@@ -92,7 +92,7 @@ function App() {
         <MyCalendar />
         <Event />
       </div>
-      <footer id="footer">
+      <footer id="footer" class="nav-down">
         <div id="socialIcons">
           <div className="col">
             <WhatsappShareButton url="https://allcyclingevents.netlify.app/">
