@@ -87,7 +87,16 @@
   color: black;
 }
 
+.col {
+  flex: 0 0 auto;
+  width: 10%;
+}
+
 @media only screen and (max-width: 900px) {
+  .col {
+    flex: 0 0 auto;
+    width: 20%;
+  }
   #calendarContainer {
     padding: 1rem;
     padding-top: 0rem;
@@ -104,13 +113,22 @@
   .rbc-toolbar-label {
     margin: 0.5rem;
   }
-  #footer {
-    display: none;
-    z-index: 10;
-  }
+
   .topnav {
     justify-content: space-between;
   }
+}
+#footer {
+  z-index: 10;
+  max-height: 2.5rem;
+  justify-content: center;
+}
+
+#socialIcons {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  margin-right: auto;
 }
 
 .popup-content {

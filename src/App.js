@@ -4,6 +4,18 @@ import Event from "./Components/Event";
 import React from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
+import {
+  LinkedinShareButton,
+  WhatsappShareButton,
+  FacebookShareButton,
+  FacebookMessengerShareButton,
+  WhatsappIcon,
+  EmailShareButton,
+  LinkedinIcon,
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+} from "react-share";
 
 function App() {
   return (
@@ -80,7 +92,35 @@ function App() {
         <MyCalendar />
         <Event />
       </div>
-      <footer id="footer">here will be the Footer</footer>
+      <footer id="footer">
+        <div id="socialIcons">
+          <div className="col">
+            <WhatsappShareButton url="https://allcyclingevents.netlify.app/">
+              <WhatsappIcon size={40} round={true} />
+            </WhatsappShareButton>
+          </div>
+          <div className="col">
+            <LinkedinShareButton url="https://allcyclingevents.netlify.app/">
+              <LinkedinIcon size={40} round={true} />
+            </LinkedinShareButton>
+          </div>
+          <div className="col">
+            <EmailShareButton url="https://allcyclingevents.netlify.app/">
+              <EmailIcon size={40} round={true} />
+            </EmailShareButton>
+          </div>
+          <div className="col">
+            <FacebookShareButton url="https://allcyclingevents.netlify.app/">
+              <FacebookIcon size={40} round={true} />
+            </FacebookShareButton>
+          </div>
+          <div className="col">
+            <FacebookMessengerShareButton url="https://allcyclingevents.netlify.app/">
+              <FacebookMessengerIcon size={40} round={true} />
+            </FacebookMessengerShareButton>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
