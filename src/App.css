@@ -54,6 +54,7 @@
 
 .rbc-event {
   background-color: transparent !important;
+  padding: 0 !important;
 }
 
 /* Add a black background color to the top navigation */
@@ -120,8 +121,12 @@
 }
 #footer {
   z-index: 10;
+  transition: bottom 0.2s ease-in-out;
   max-height: 2.5rem;
   justify-content: center;
+}
+.nav-down {
+  bottom: -40px;
 }
 
 #socialIcons {
