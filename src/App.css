@@ -42,6 +42,15 @@
   padding-top: 0rem;
 }
 
+.rbc-btn-group > button {
+  font-family: "Play" !important;
+  font-weight: bold;
+}
+
+.rbc-button-link {
+  font-family: "Stick No Bills" !important;
+}
+
 #mainTitle {
   padding-top: 2rem;
   padding-bottom: 1rem;
